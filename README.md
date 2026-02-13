@@ -9,10 +9,13 @@ India's judicial system is overwhelmed with over 4.5 Crore pending cases. A mass
 Manual scheduling leading to overlapping dates.
 Lack of synchronization between Judges' and Lawyers' calendars.
 Zero transparency for the clients/citizens.
+
+
 💡 The Solution: JustiSync
 JustiSync is a centralized, digital Case Management platform built on the robust PERN Stack. It eliminates administrative bottlenecks by providing a unified ecosystem for Judges, Lawyers, and Clients.
 
 🌟 Key Features (Our USP)
+
 ⚙️ Smart Conflict Detection Algorithm: The backend proactively checks for overlapping schedules. It physically prevents a Judge from double-booking a time slot, ensuring 0% scheduling conflicts.
 🔒 Role-Based Access Control: Secure JWT authentication granting specific dashboard access to Judges, Lawyers, and Clients.
 📅 Interactive Calendar: Real-time, asynchronous UI updates powered by React Virtual DOM.
@@ -21,12 +24,16 @@ JustiSync is a centralized, digital Case Management platform built on the robust
 Frontend (React.js + Vite): Role-specific Glassmorphism Dashboards.
 Backend (Node.js + Express): RESTful API handling Auth Middleware and the Conflict Detection Engine.
 Database (PostgreSQL): ACID compliant storage for maximum legal data security.
+
+
 🚀 Getting Started (Run Locally)
 Follow these steps to run the JustiSync prototype on your local machine.
 
 Prerequisites
 Node.js installed
 PostgreSQL & pgAdmin installed
+
+
 1. Database Setup
 Open your pgAdmin, create a database named justisync_db, open the Query Tool, and run the following SQL commands to create the schema:
 
